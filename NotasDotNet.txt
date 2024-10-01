@@ -1,0 +1,76 @@
+Dot Net CLI
+============
+
+dotnet --info
+
+dotnet -h new // para obtener ayuda en el comando new
+
+
+dotnet new webapi -h
+
+dotnet new list 
+
+-- primero crear la solucion
+
+dotnet new sln
+
+-- agregar paquete
+
+
+-- nuevo proyecto .Net
+
+dotnet new webapi -controllers -n API
+dotnet sln add API
+
+
+en la busqueda buscar el comando : Reload Window ( al momomento no aparece)
+
+-- instalar  las siguientes extensiones:
+C# Dev Kit
+C#
+.Net Install Tool
+Material Icon Theme
+NuGet Gallery
+SQLite
+
+--====================================================================
+En la terminal : dotnet run
+
+Puerto 5100
+
+
+para agregar el certificado de confianza
+dotnet dev-certs https --trust
+
+dotnet watch
+--====================================================================
+
+UNA CLASE VA A REPRESENTAR UNA TABLA DE LA BASE DE DATOS
+
+dotnet tool list -g
+
+
+dotnet ef
+
+dotnet ef migrations -h  // para hacer migraciones 
+
+dotnet ef database -h // para crear la base de datos
+
+dotnet ef database update
+
+dotnet watch // NO FUNCIONÓ sirve para no estar bajando el servicio
+
+--====================================================================
+//GIT 
+
+-- En el folder donde está la solución.
+
+    git status // no tiene que haber nada
+
+    git init // crea el folder  .gitignore
+
+
+    dotnet new gitignore
+
+
+    git remote add origin https://github.com/AncientVampire/DatingApp-net8.git
