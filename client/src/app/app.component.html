@@ -1,0 +1,25 @@
+<h1>{{title}}</h1>
+
+<ul>
+
+    @for (user of users; track $index) {
+        <li>
+            {{user.id}} - {{user.userName}}
+        </li>
+    }
+    <!-- 
+    Esta es la forma antigua de hacer un *ngFor pero ya no se hace así en la 
+    nueva versión, ni se declara 
+    
+    /* import { NgFor } from '@angular/common';*/
+
+    en el app.component.ts
+
+
+    <li *ngFor="let user of users">
+        {{user.id}} - {{user.userName}}
+    </li> -->
+    
+    
+
+</ul>

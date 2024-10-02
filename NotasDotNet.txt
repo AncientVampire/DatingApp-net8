@@ -74,3 +74,34 @@ dotnet watch // NO FUNCIONÓ sirve para no estar bajando el servicio
 
 
     git remote add origin https://github.com/AncientVampire/DatingApp-net8.git
+
+
+
+    --====================================================================
+    // ANGULAR 
+    https://v17.angular.io/docs
+
+    node --version
+    npm install -g @angular/cli@17
+
+    ng version
+
+    ng new client
+    Which stylesheet format would you like to use? CSS    
+    ? Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? No
+
+    ng serve
+    http://localhost:4200/
+
+ng serve --host 0.0.0.0 --port 4200  // para que sea visible en toda la Red
+
+http://192.168.1.16:4200
+
+
+https://valor-software.com/ngx-bootstrap/#/
+
+
+https://getbootstrap.com/
+
+
+npm install ngx-bootstrap@12 bootstrap font-awesome
