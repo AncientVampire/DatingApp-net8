@@ -60,6 +60,11 @@ dotnet ef database update
 
 dotnet watch // NO FUNCIONÓ sirve para no estar bajando el servicio
 
+
+dotnet ef migrations add UserEntityUpdated // para agregarle columnas a las entidades
+
+dotnet ef database update
+
 --====================================================================
 //GIT 
 
@@ -105,3 +110,17 @@ https://getbootstrap.com/
 
 
 npm install ngx-bootstrap@12 bootstrap font-awesome
+
+--=========================================================
+Para Probar los endpoints
+
+username: nelson
+password: 123
+
+username: sam
+password: password
+--=========================================================
+
+visualizar data de los token ir al sitio:
+
+jwt.io
