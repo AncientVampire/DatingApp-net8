@@ -111,6 +111,25 @@ https://getbootstrap.com/
 
 npm install ngx-bootstrap@12 bootstrap font-awesome
 
+
+ng generate --help
+
+ng generate component 
+ng g c 
+
+ng g c nav --dry-run // significa sin cambios 
+
+ng g c nav --skip-tests --dry-run // significa sin cambios  y sin crear el archivo de pruebas
+
+ng g c nav --skip tests //CUIDADO si crea lo que estamos  pidiendo lo anterior es para pruebas 
+
+ng generate service 
+ng g s _services/account --dry-run
+ng g s _services/account --skip-tests --dry-run
+
+ng g c home --skip-tests --dry-run
+ng g c register --skip-tests --dry-run
+
 --=========================================================
 Para Probar los endpoints
 
